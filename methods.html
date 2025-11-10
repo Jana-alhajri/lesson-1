@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>javascript string methods</title>
+
+    </head>
+    <body>
+        <p>basic mathods</p>
+        <script>
+            var str="amazing";
+            document.write(str.toUpperCase());
+            document.write("<br>");
+            document.write(str.toLowerCase());
+            document.write("<br>");
+            document.write(str.startsWith("i"));
+            var str1="i learned about methods";
+            var patt = new RegExp("about");
+
+                var res = patt.test(str);
+
+                document.write(res);
+        </script>
+    </body>
+</html>
